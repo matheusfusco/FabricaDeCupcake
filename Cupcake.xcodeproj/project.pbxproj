@@ -13,6 +13,7 @@
 		9F38419C22C12E22004ABCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38419B22C12E22004ABCCB /* Assets.xcassets */; };
 		9F38419F22C12E22004ABCCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F38419E22C12E22004ABCCB /* Preview Assets.xcassets */; };
 		9F3841A222C12E22004ABCCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3841A022C12E22004ABCCB /* LaunchScreen.storyboard */; };
+		9FA8536A22C150E900ACCD2E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8536922C150E900ACCD2E /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9F38419E22C12E22004ABCCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F3841A122C12E22004ABCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F3841A322C12E22004ABCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA8536922C150E900ACCD2E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				9F38419522C12E21004ABCCB /* AppDelegate.swift */,
 				9F38419722C12E21004ABCCB /* SceneDelegate.swift */,
+				9FA8536922C150E900ACCD2E /* Order.swift */,
 				9F38419922C12E21004ABCCB /* ContentView.swift */,
 				9F38419B22C12E22004ABCCB /* Assets.xcassets */,
 				9F3841A022C12E22004ABCCB /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			files = (
 				9F38419622C12E21004ABCCB /* AppDelegate.swift in Sources */,
 				9F38419822C12E21004ABCCB /* SceneDelegate.swift in Sources */,
+				9FA8536A22C150E900ACCD2E /* Order.swift in Sources */,
 				9F38419A22C12E21004ABCCB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

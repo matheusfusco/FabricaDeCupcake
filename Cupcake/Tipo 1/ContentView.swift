@@ -14,8 +14,10 @@ struct ContentView : View {
     @State var showingConfirmationAlert = false
     
     var body: some View {
-        NavigationView {
+//        NavigationView {
             Form {
+                Text("Nesse exemplo, você consegue efetuar o pedido de 1 cupcake. O Botão de 'Efetuar Pedido' só libera quando o usuário preenche todos os dados do pedido.")
+                    .lineLimit(nil)
                 Section {
                     Picker(selection: $order.type, label: Text("Selecione o tipo de Cupcake")) {
                         ForEach(0 ..< Order.types.count) {
@@ -59,11 +61,11 @@ struct ContentView : View {
                     }
                 }.disabled(!order.isValid)
             }
-            .navigationBarTitle(Text("Fábrica de Cupcakes"))
+            .navigationBarTitle(Text("Fábrica 1"))
             .presentation($showingConfirmationAlert) {
                 Alert(title: Text("Obrigado!"), message: Text(confirmationMessage), dismissButton: .default(Text("Ok")))
             }
-        }
+//        }
     }
     
     func placeOrder() {
